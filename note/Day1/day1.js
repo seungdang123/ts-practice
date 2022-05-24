@@ -3,7 +3,7 @@
 console.log([1, 2, 3, 4] + false); // -> 1,2,3,4false
 
 // Java, Go 등의 정상적인 언어라면 코드를 멈추고 에러 메세지를 띄움
-// JS는 이상한 함수를 작성해도 어떻게든 작동시켜서 이상한 결과를 리턴함 ㅋㅋ
+// JS는 이상한 함수를 작성해도 어떻게든 작동시켜서 이상한 결과를 리턴함
 function divide(a, b) {
   return console.log(a / b);
 }
